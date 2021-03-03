@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Target ip address"
-        android:inputType="number" />
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/targetPort"
@@ -68,7 +68,7 @@
         android:text="" />
 
     <TextView
-        android:id="@+id/usersResult"
+        android:id="@+id/txtUsers"
         android:layout_width="match_parent"
         android:layout_height="322dp"
         android:layout_margin="10dp"
